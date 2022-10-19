@@ -1156,7 +1156,7 @@
           <version>${maven-surefire-plugin-version}</version>
           <configuration>
             <redirectTestOutputToFile>true</redirectTestOutputToFile>
-            <forkCount>1</forkCount>
+            <forkCount>32</forkCount>
             <reuseForks>true</reuseForks>
             <argLine>-enableassertions</argLine>
             <failIfNoTests>false</failIfNoTests>
